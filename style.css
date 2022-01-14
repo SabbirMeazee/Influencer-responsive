@@ -1,0 +1,99 @@
+/*
+======== google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@500;600;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+<i class="fas fa-arrow-right"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+<i class="fab fa-instagram-square"></i>
+<i class="fab fa-facebook"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-youtube"></i>
+<i class="fas fa-globe"></i> */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ===========banner part start========= */
+
+
+.banner{
+    height: 100vh;
+    display: flex;
+}
+.banner_left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.banner_right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_content{
+    color: #3A3A3A;
+}
+.ban_title{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.banner_content p{
+    font-size: 16px;
+    line-height: 2;
+}
+.banner_button{
+    background-color: rgba(230, 59, 29, 0.911);
+    color: white;
+    padding: 10px 25px;
+    border: 3px solid rgba(230, 59, 29, 0.911);
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.banner_button:hover{
+    background-color: transparent;
+    color: tomato;
+    
+
+
+}
+.right_arrow{
+    margin-left: 10px;
+}
+
+.ban_img{
+    height: 415px;
+    width: 440px;
+    border: 5px solid #F1E4FF;
+    border-radius: 50%;
+}
+.ban_img img{
+    width: 100%;
+}
+
+/* -==================banner part end-================= */
+
+/* ====================Popular part start============== */
+
+
+.popular_title{
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 30px;
+    margin: 50px 0;
+}
