@@ -7,7 +7,7 @@
 <i class="fas fa-star"></i>
 <i class="fas fa-star-half-alt"></i>
 <i class="fab fa-instagram-square"></i>
-<i class="fab fa-facebook"></i>
+
 <i class="fab fa-twitter"></i>
 <i class="fab fa-youtube"></i>
 <i class="fas fa-globe"></i> */
@@ -155,4 +155,37 @@ body{
 .rating p{
     margin-left: 10px;
     font-size: 15px;
+}
+.see_more{
+    color: rgba(230, 59, 29, 0.911);
+    font-size: 20px;
+    text-align: end;
+    margin: 20px 0;
+}
+
+
+/* ===============footer part start================ */
+.footer_content{
+    background-color: #0A0826;
+    padding: 30px;
+    text-align: center;
+    line-height: 2;
+}
+.footer_title{
+    color: white;
+}
+.footer_content p{
+    color: rgba(245, 245, 245, 0.863);
+}
+.icon{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+.icon i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(61, 53, 53);
+    margin: 0 10px;
+    cursor: pointer;
 }
