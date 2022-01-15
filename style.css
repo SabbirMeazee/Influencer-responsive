@@ -2,15 +2,11 @@
 ======== google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@500;600;700&display=swap');
 
-/* font-family: 'Poppins', sans-serif;
+ /* font-family: 'Poppins', sans-serif;
 <i class="fas fa-arrow-right"></i>
-<i class="fas fa-star"></i>
-<i class="fas fa-star-half-alt"></i>
-<i class="fab fa-instagram-square"></i>
+<i class="fas fa-phone-alt"></i> 
 
-<i class="fab fa-twitter"></i>
-<i class="fab fa-youtube"></i>
-<i class="fas fa-globe"></i> */
+<i class="far fa-envelope"></i>*/
 *{
     margin: 0;
     padding: 0;
@@ -126,6 +122,7 @@ body{
     padding: 18px 15px;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.4s;
 
 }
 .photo:hover{
@@ -162,7 +159,32 @@ body{
     text-align: end;
     margin: 20px 0;
 }
+/* ================Contact part-----------============== */
 
+.container_flex{
+    display: flex;
+    padding: 30px 0;
+}
+.contact_part{
+    flex: 1;
+    align-items: center;
+}
+.message_part{
+    flex: 2;
+}
+.contact_us{
+    margin-bottom: 15px;
+}
+.contact i{
+    color: gray;
+    margin-right: 15px;
+}
+.contact h3{
+    padding: 10px 0;
+}
+.contact p{
+    color: rgb(87, 80, 80);
+}
 
 /* ===============footer part start================ */
 .footer_content{
